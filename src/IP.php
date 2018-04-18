@@ -2,6 +2,12 @@
 
 namespace Darsyn\IP;
 
+@trigger_error(sprintf(
+    '"%s" is now deprecated and will be removed in the next major version; please upgrade and use "Darsyn\IP\Version\Multi" instead.',
+    IP::class,
+    'Darsyn\\IP\\Version\\Multi'
+), E_USER_DEPRECATED);
+
 /**
  * IP Address
  *
