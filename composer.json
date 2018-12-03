@@ -26,6 +26,9 @@
             "Darsyn\\IP\\Tests\\": "tests/"
         }
     },
+    "require-dev": {
+        "phpbench/phpbench":"^1.0.0@dev"
+    },
     "suggest": {
         "doctrine/dbal": "to use IP as a column type"
     }
